@@ -1,0 +1,10 @@
+FROM ubuntu:14:04
+
+MKDIR /workspace 
+
+WORKDIR /workspace
+
+COPY . /workspace 
+
+
+RUN 
